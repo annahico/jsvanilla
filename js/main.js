@@ -155,7 +155,7 @@
 
 let numero = 10;
 
-if ((numero > 2) && (numero < 20)){
+if ((numero > 2) && (numero < 20)) {
 
     console.log("Hola, habremos entendido esto???")
 }
@@ -164,42 +164,42 @@ if ((numero > 2) && (numero < 20)){
 
 let numero2 = 20;
 
-if ((numero2 > 1000) || (numero2 < 21)){
+if ((numero2 > 1000) || (numero2 < 21)) {
     console.log("Hola, esto tambien???");
 }
 
 let variable3 = false;
 
-if (!variable3){
+if (!variable3) {
 
     console.log("esto saldria???")
 }
 
 // //proposicion ejercicio:Pide por prompt 2 veces, números al usuario..... compara a continuación esos números..... si los el primer número es mayor que 100, muestra un mensaje indicándolo.... si el segundo número es mayor que 200.... muestra un mensaje también indicándolo
 
-// Si el primer número es mayor que el segundo... muestra un mensaje indicándolo, en caso de que el segundo número sea mayor que el primero, indícalo tambien
-
-// Si el segundo número es mayor que 200 y menor que 1000, indícalo//
 
 // Pedir al usuario que ingrese dos números
 let numero7 = prompt("Ingresa el primer número:");
 let numero8 = prompt("Ingresa el segundo número:");
 
 // Comparar los números según las condiciones dadas
-if (numero7Entero > 100) {
-  console.log("El primer número es mayor que 100.");
+if (numero7 > 100) {
+    console.log("El primer número es mayor que 100.");
 }
 
-if (numero8Entero > 200) {
-  console.log("El segundo número es mayor que 200.");
+if (numero8 > 200) {
+    console.log("El segundo número es mayor que 200.");
 }
 
-if (numero7Entero > numero8Entero) {
-  console.log("El primer número es mayor que el segundo.");
-} else if (numero8Entero > numero7Entero) {
-  console.log("El segundo número es mayor que el primero.");
+if (numero7 > numero8) {
+    console.log("El primer número es mayor que el segundo.");
+} else if (numero8 > numero7) {
+    console.log("El segundo número es mayor que el primero.");
+    
+} else {
+    console.log("los dos numeros son iguales")
 }
 
-if (numero8Entero > 200 && numero7Entero < 1000) {
-  console.log("El segundo número es mayor que 200 y menor que 1000.");
+if (numero8 >= 200 && numero7 <= 1000) {
+    console.log("El segundo número es mayor que 200 y menor que 1000.");
 }
