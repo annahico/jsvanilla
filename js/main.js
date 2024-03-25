@@ -50,6 +50,40 @@ console.log("El resultado de la división es.....", resultado)
 
 //MODULO
 
-resultado = 10 % 2;
+resultado = 17 % 2;
 console.log("El resultado del módulo es.....", resultado)
 
+//Cerciorate de si un número es par o impar
+
+if (resultado !==0){
+
+    console.log("No se trata de un número par")
+
+}
+
+//Pràctica 
+
+let numero4 = 12;
+let numero5 = 7;
+let numero6 = 20;
+
+// Verificar si el primer número es par o impar
+if (numero1 % 2 === 0) {
+    console.log(numero1 + " es un número par.");
+  } else {
+    console.log(numero1 + " es un número impar.");
+  }
+  
+  // Verificar si el segundo número es par o impar
+  if (numero2 % 2 === 0) {
+    console.log(numero2 + " es un número par.");
+  } else {
+    console.log(numero2 + " es un número impar.");
+  }
+  
+  // Verificar si el tercer número es par o impar
+  if (numero3 % 2 === 0) {
+    console.log(numero3 + " es un número par.");
+  } else {
+    console.log(numero3 + " es un número impar.");
+  }
