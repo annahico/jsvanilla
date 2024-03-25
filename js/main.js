@@ -129,13 +129,10 @@
 //     console.log("El número es mayor a 10.")
 // }
 
-//proposición de ejercicio
+//proposición de ejercicio: Genera un programa que pida un número por prompt al usuario, a continuación, averiguará si se trata de un número par o impar, lo dirá entonces por console.log.
 
 // Pedir al usuario que ingrese un número
 let numero = prompt("Ingresa un número:");
-
-// Convertir la entrada del usuario a un número entero
-let numeroEntero = parseInt(numero);
 
 // Verificar si el número es par o impar
 if (numeroEntero % 2 === 0) {
